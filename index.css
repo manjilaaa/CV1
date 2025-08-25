@@ -1,0 +1,147 @@
+
+html, body {
+  height: 100%;       
+  margin: 0;   
+  line-height: 1.5em;  
+  font-size: 16px;
+}
+.body {
+  display: flex;           
+  justify-content: center;  
+  align-items: center;      
+  flex-direction: column;   
+  min-height: 100vh;        
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cv > h1:first-of-type {
+  text-decoration: none;  
+  text-align: center;     
+}
+.cv *:not(h1) {
+  font-size: 18px; 
+}
+.cv {  
+  padding: 20px;
+  max-width: 1100px;        
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+
+.cv h1 {
+  text-decoration: underline;
+  color: #0b1d59;
+  display: inline-block;
+  font-weight: 100;
+  font-size: 28px;
+}
+
+
+
+.top {
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+
+}
+.contact-info{
+  margin-left: 20px;
+}
+.contact-info p{
+  font-size: 20px;
+}
+
+.top i {
+  margin-right: 8px;
+}
+
+.space {
+  margin-right: 300px;
+ 
+}
+
+
+.P-summary, .edu, .skill, .cert, .hob-in, .projects {
+  margin-top: -30px;
+}
+.contact-info{
+  margin-top: -25px;
+}
+
+.P-summary p,
+.edu h2,
+.skill p,
+.cert p,
+.hob-in p,
+.projects p {
+  margin-top: -4px;
+  font-size: 19px;
+
+ 
+}
+.P-summary b,
+.edu b,
+.skill b,
+.cert b,
+.hob-in b,
+.projects b{
+ font-size: 21px;
+ 
+}
+
+.edu ul{
+  margin-top: -10px;
+}
+
+
+@media (max-width: 768px) {
+  .cv {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .space {
+    margin-right: 50px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .cv {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .cv h1 {
+    font-size: 22px;
+  }
+  .space {
+    margin-right: 20px;
+  }
+  .icon {
+    font-size: 0.85rem;
+  }
+  .icon a {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .cv {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 0.8rem;
+  }
+  .icon i {
+    font-size: 0.9rem;
+    margin-right: 6px;
+  }
+  .icon a {
+    font-size: 0.7rem;
+  }
+  .contact-info {
+    gap: 2px;
+  }
+}
